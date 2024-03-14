@@ -1,6 +1,6 @@
 {
   "log": {
-    "level": "debug",
+    "level": "info",
     "timestamp": true
   },
   "experimental": {
@@ -45,8 +45,7 @@
       },
       {
         "outbound": "any",
-        "server": "localDns",
-        "disable_cache": true
+        "server": "localDns"
       },
       {
         "rule_set": "geosite-cn",
