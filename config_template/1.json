@@ -44,6 +44,15 @@
         "server": "block"
       },
       {
+        "domain_suffix": [
+          "dev.geesdev.com",
+          "test.geesdev.com",
+          "ob.geesdev.com"
+        ],
+        "domain": ["gitlab.js.design", "geesdev.com"],
+        "server": "localDns"
+      },
+      {
         "outbound": "any",
         "server": "localDns"
       },
