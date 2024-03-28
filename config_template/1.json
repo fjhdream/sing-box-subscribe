@@ -387,44 +387,6 @@
     "final": "proxy",
     "rules": [
       {
-        "type": "IP-DIRECT",
-        "ip": [
-          "192.168.0.0/16",
-          "10.0.0.0/8",
-          "172.16.0.0/12",
-          "127.0.0.1",
-          "205.234.201.223"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "type": "JSDesign",
-        "domain": [
-          "localhost",
-          "*.local",
-          "timestamp.apple.com",
-          "sequoia.apple.com",
-          "seed-sequoia.siri.apple.com",
-          "*.apple.com",
-          "*.js.design",
-          "*.js-test.design",
-          "geesdev.com",
-          "mac.com.*.mac.com",
-          "fjhdream.cn",
-          "gitlab.js.design",
-          "*.imacso.com",
-          "jumpserver.js.design",
-          "*.4ksj.com",
-          "*.xiaopiu.com",
-          "*.dev.geesdev.com",
-          "*.test.geesdev.com",
-          "dev.geesdev.com",
-          "test.geesdev.com",
-          "itest.geesdev.com"
-        ],
-        "outbound": "direct"
-      },
-      {
         "protocol": "dns",
         "outbound": "dns-out"
       },
